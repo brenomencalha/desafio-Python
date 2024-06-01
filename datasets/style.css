@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Prompt',sans-serif;
+    color:#94A6A4;
+}
+
+body{
+    background-color: #94A6A4;
+    margin:0px;
+    padding: 0px;
+}
+
+[data-testid=stSidebar]{
+    background: linear-gradient(to top,#73242A,#26151A,#162226)
+}
+
+h1, h2{
+    color: #73242A;
+    text-align: center;
+    border-bottom: 2px solid #73242A;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    margin-top: -30px;
+    transition: 0.5s linear;
+}
+
+h2:hover{
+    color:#D8F2ED;
+    border-bottom: 2px solid #D8F2ED;
+    padding-bottom: 10px;
+}
+
+
+h5{
+    border-top:#73242A 2px solid;
+    margin-top: 50px;
+    padding-top: 10px;
+    color: #94A6A4;
+    transition: 0.5s linear;
+}
+
+h5:hover{
+    color:#D8F2ED;
+}
+
+[data-testid=stMarkdown]{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+[data-testid=stMetric]{
+    border: #73242A 2px solid;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: start;
+}
+
+.stPlotlyChart{
+    margin: 50px 20px 30px 20px;
+    color:#D8F2ED;
+}
